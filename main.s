@@ -146,9 +146,6 @@ num_conv:
 	cmp %r8, %r12
 	je parse_error
 
-	//cmp $0, %r8
-	//jne parse_error
-
 	push %rax
 	jmp loop
 
